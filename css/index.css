@@ -1,0 +1,531 @@
+body {
+    background-color: #f5efdc;
+    font-family: 'helvetica';
+    color: black;
+}
+
+
+/* Startside med sprog*/
+.baggrundlogin {
+     height: 50%;
+     width: 100%;
+    
+}
+
+.logologin {
+    position: absolute;
+    width: 50%;
+    margin: 24%;
+    margin-top: -24%;
+}
+
+.velkommenengelsk {
+    position: absolute;
+    margin-left: 12%;
+    font-size: 420%;
+    margin-top: 20%;
+}
+
+.velkommendansk {
+    position: absolute;
+    margin-left: 7%;
+    font-size: 420%;
+    margin-top: 20%;
+}
+
+.velkommentysk {
+    position: absolute;
+    margin-left: 6%;
+    font-size: 420%;
+    margin-top: 20%;
+}
+
+.sprogengelsk {
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 45%;
+    font-size: 350%;
+}
+
+.sprogdansk {
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 45%;
+    font-size: 350%;
+}
+
+.sprogtysk {
+    position: absolute;
+    margin-left: 23%;
+    margin-top: 45%;
+    font-size: 350%;
+}
+
+.dansk{
+    position: absolute;
+    width: 20%;
+    margin-left: 10%;
+    margin-top: 70%;
+    box-shadow: 25px 20px #888888;
+}
+
+.engelsk{
+    position: absolute;
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 70%;
+    box-shadow: 25px 20px #888888;
+}
+
+.tysk{
+    position: absolute;
+    width: 20%;
+    margin-left: 70%;
+    margin-top: 70%;
+    box-shadow: 25px 20px #888888;
+}
+
+.introtekst{
+    position: absolute;
+    font-size: 350%;
+    text-align: center;
+    margin: 5%;
+    margin-top: 100%;
+}
+
+.engelskside{
+    visibility: hidden;
+}
+
+.tyskside{
+    visibility: hidden;
+}
+
+
+/*Login-side*/
+
+.headlinehistorietur{
+    color: #000000; 
+    margin-left: 25%;
+    font-size: 550%; 
+    margin-top: 5%;
+    margin-bottom: %; 
+    
+}
+
+.indtastkode{
+    margin-left: 12%;  
+    font-size: 420%; 
+} 
+
+
+ .labellogin {
+    font-size: 400%;
+    margin-left: 14%; 
+    margin-bottom: 10%; 
+}
+
+.loginbox{
+    width: 50%; 
+    height: auto; 
+    font-size: 400%; 
+    margin-left: 3%; 
+    margin-bottom: 8%; 
+    background-color: #ffffff;  
+}
+
+.boxaround{
+    background-color: #fbfbf0;
+    margin:5%; 
+    box-shadow: 2px 8px 40px #aaaaaa;
+}
+
+.komigangknap{
+    width: 50%;
+    height: auto;
+    font-size: 300%; 
+    margin-left: 25%; 
+    margin-bottom: 10%; 
+}
+
+.billettekst{
+    font-size: 350%; 
+    text-align: center;
+    margin: 5%;
+    margin-top: 10%; 
+    margin-bottom: 11%; 
+    
+}
+
+.tilbageknaplogin {
+    margin-left: 5%;
+    
+}
+
+/* Spilleside*/
+
+.logoquiz{
+    position: absolute;
+    width: 50%;
+    margin: 0 23.5%;
+}
+
+.baggrundquiz{
+    margin-bottom: 10%;
+    width: 100%;
+    
+}
+
+.kort{
+    width: 100%;
+    position: absolute;
+    
+}
+
+
+.knap1{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    margin-left: 75.5%;
+    margin-top: 10%;
+    cursor: pointer;
+    border-radius: 25px;
+    font-size: 36px;
+    cursor: pointer;
+    
+}
+
+.knap2{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    margin-left: 62%;
+    margin-top: 13.5%;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+
+ 
+.knap3{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    margin-left: 35.5%;
+    margin-top: 32.5%;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+.knap4{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    margin-left: 19.5%;
+    margin-top: 26.5%;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+
+.knap5{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    margin-left: 3%;
+    margin-top: 18%;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+.knap6{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    margin-top: 31%;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+.knap7{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    margin-left: 23.5%;
+    margin-top: 40.5%;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 36px;
+}
+
+.knap8{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    margin-left: 34%;
+    margin-top: 45%;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 36px;
+}
+
+.knap9{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    margin-left: 47%;
+    margin-top: 54.5%;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 36px;
+}
+
+.knap10{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    margin-left: 63%;
+    margin-top: 52%;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 36px;
+}
+
+.knap11{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    margin-left: 88.5%;
+    margin-top: 10.5%;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 36px;
+}
+
+.knap12{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    margin-left: 90.5%;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 36px;
+}
+
+p{
+    font-size: 60px;
+    display: block;
+}
+
+h4{
+    position: absolute;
+    font-size: 350%;
+    margin-top: 70%;
+}
+
+.finish{
+    position: absolute;
+    width: 25%;
+    height: 8%;
+    font-size: 300%;
+    margin-left: 71%;
+    margin-top: 122%;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px grey;
+}
+
+#mc {
+    margin-bottom: 20px;
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    margin-right: 5%;
+    font-size: 44px;
+}
+
+.done{
+    width: 50%;
+    font-size: 60px;
+    margin-left: 25%;
+    margin-top: 30%;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px grey;
+}
+
+.after_submit{
+    position: absolute;
+    font-size: 70px;
+    margin-left: 5%;
+    margin-top: 5%;
+    visibility: hidden;
+}
+
+.spørgsmål {
+    font-size: 70px;
+    margin-bottom: 15%;
+    margin-top: 10%;
+}
+
+.next {
+    position: absolute;
+    width: 50%;
+    height: 15%;
+    font-size: 400%;
+    margin-left: 25%;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px grey;
+}
+
+.spørgsmål1{
+    position: absolute;
+    visibility: hidden;
+}
+
+.spørgsmål2{
+    position: absolute;
+    visibility: hidden;
+}
+
+.spørgsmål3{
+    position: absolute;
+    visibility: hidden;
+}
+
+.spørgsmål4{
+    position: absolute;
+    visibility: hidden;
+}
+
+.spørgsmål5{
+    position: absolute;
+    visibility: hidden;
+}
+
+.spørgsmål6{
+    position: absolute;
+    visibility: hidden;
+}
+
+.tilbagepil{
+    margin-top: 125%;
+    margin-left: 3%;
+    box-shadow: 10px 10px 10px grey;
+}
+
+
+/* feedbackform */
+
+.logo {
+    margin-left: 24%;
+    position: absolute;
+}
+
+.baggrund {
+    height: 50%;
+    width: 100%;
+    
+}
+
+
+.feedbacktekst {
+
+    font-size: 300%;
+    box-shadow: 3% 3% 5% 5%;
+    padding: 10% 10% 20% 10%;
+    border: 1px solid #BFBFBF;
+    background-color: #fbfbf0;
+    box-shadow: 5px 10px 40px #aaaaaa;
+    color: #000000;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 3%;
+    margin-top: 15%;
+    border-radius: 3%;
+    border: none;
+
+}
+
+
+/* feedbackform */
+
+.inputfeedback[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12%;
+    border: solid #ccc;
+    border-radius: 2%;
+    box-sizing: border-box;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    resize: vertical
+}
+
+/* send */
+
+.inputfeedback[type=submit] {
+    background-color: #4CAF50;
+    color: #000000;
+    padding: 5% 10%;
+    border: none;
+    border-radius: 4%;
+    cursor: pointer;
+    font-size: 90%;
+    box-shadow: 2px 8px 40px #aaaaaa;
+
+}
+
+/* trykker på knappen send */
+
+.inputfeedback[type=submit]:hover {
+    background-color: #4CAF58;
+}
+
+
+
+.container {
+    border-radius: 2%;
+    padding: 2%;
+    color: #000000;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 19%;
+    font-size: 290%;
+    box-shadow: 5px 10px 40px #aaaaaa;
+    background-color: #fbfbf0;
+
+}
+
+
+
+
+.tilbageknapfeedback {
+    margin-top: 22%;
+    margin-left: 5%;  
+
+}
+
+.popup {
+    font-size: 250%;
+    margin-left: 40%;
+    margin-right: 5%;
+    border-radius: 2%;
+    color: #000000;
+    background-color: #fbfbf0;
+    padding: 3%;
+    visibility: hidden;
+    box-shadow: 5px 10px 40px #aaaaaa;
+    margin-top: -11%;
+}
+

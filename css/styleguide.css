@@ -1,0 +1,118 @@
+body {
+    background-color: #f5efdc;
+    font-family: 'helvetica';
+    color: black;
+}
+
+.logo {
+    margin-left: 25%;
+    position: absolute;
+    width: 50%;
+}
+
+.baggrund {
+    height: 50%;
+    width: 100%;
+
+}
+
+hr{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    display: block;
+    border-style: dashed;
+    border-width: 2px;
+}
+
+
+.farvekoder {
+    width: 45%;
+    margin-left: 27%;
+
+}
+
+.tpil{
+    font-size: 200%;
+    margin-left: 45%;
+}
+
+.pil {
+    margin-top: 2%;
+    margin-left: 45%;
+    
+}
+
+.htmlkode{
+    font-size: 200%;
+    margin-left: 20%;
+    margin-top: 5%;
+    float: left;
+}
+
+.html {
+    margin-top: 10%;
+    float: left;
+    margin-left: -60%;
+    margin-bottom: 3%;
+}
+
+.csskode{
+    font-size: 200%;
+    margin-left: 20%;
+    margin-top: 5%;
+    float: left;
+}
+
+.css {
+    margin-top: 10%;
+    float: left;
+    margin-left: -35%;
+}
+
+.javascriptkode{
+    font-size: 200%;
+    margin-left: 20%;
+    margin-top: 5%;
+    float: left;
+}
+
+.javascript {
+    margin-top: 10%;
+    margin-left: -10%;
+    float: left;
+}
+
+.Tone{
+    text-align: center;
+    font-size: 200%;
+}
+
+.voice{
+    text-align: center;
+    font-size: 150%;
+}
+
+.picture{
+    text-align: center;
+    font-size: 200%;
+}
+
+.Header{
+    margin: 0 40.5%;
+}
+
+.billedekode{
+    text-align: center;
+    font-size: 150%;
+}
+
+.lavet{
+    text-align: center;
+}
+
+.font{
+    text-align: center;
+    font-size: 150%;
+}
