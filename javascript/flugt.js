@@ -234,21 +234,57 @@ function tilbage() {
 
 function tak() {
   let getTak =document.querySelector(".popup") .style.visibility="visible";
-    }
+}
 
 /*index*/
 
 let danskFlagStatus = true;
 
-function danskFlag() {
-    window.location.href = 'login.html'
+let danskFalg = function() {
+    let getDansk = document.querySelector(".danskside");
+    let getEngelsk = document.querySelector(".engelskside");
+    let getTysk = document.querySelector(".tyskside");
+    
+    if (danskFlagStatus === true) {
+        getDansk.style.visibility = "visible";
+        getEngelsk.style.visibility = "hidden";
+        getTysk.style.visibility = "hidden";
+        
+    }
 }
 
-function engelskflag() {
-    window.location.href = 'login.html'
+let engelskFalgStatus = true;
+
+let engelskFalg = function() {
+    let getDansk = document.querySelector(".danskside");
+    let getEngelsk = document.querySelector(".engelskside");
+    let getTysk = document.querySelector(".tyskside");
+    
+    if (engelskFalgStatus === true) {
+        getDansk.style.visibility = "hidden";
+        getEngelsk.style.visibility = "visible";
+        getTysk.style.visibility = "hidden";
+       
+    }
 }
 
-function tyskflag() {
-    window.location.href = 'login.html'
+let tyskFlagStatus = true;
+    
+    let tyskFalg = function() {
+    let getDansk = document.querySelector(".danskside");
+    let getEngelsk = document.querySelector(".engelskside");
+    let getTysk = document.querySelector(".tyskside");
+        
+    if (tyskFlagStatus === true) {
+        getDansk.style.visibility = "hidden";
+        
+        getEngelsk.style.visibility = "hidden";
+        
+        getTysk.style.visibility = "visible";
+        
+    }
 }
 
+function startApp() {
+    window.location.href = 'login.html'
+}
