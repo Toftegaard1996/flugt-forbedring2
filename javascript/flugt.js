@@ -240,48 +240,63 @@ function tak() {
 
 let danskFlagStatus = true;
 
-let danskFalg = function() {
+let danskFlag = function() {
     let getDansk = document.querySelector(".danskside");
     let getEngelsk = document.querySelector(".engelskside");
     let getTysk = document.querySelector(".tyskside");
+    let getDFlag = document.querySelector(".dansk");
+    let getEFlag = document.querySelector(".engelsk");
+    let getTFlag = document.querySelector(".tysk");
     
     if (danskFlagStatus === true) {
         getDansk.style.visibility = "visible";
+        getDFlag.style.boxShadow = "25px 20px #7CB82E";
         getEngelsk.style.visibility = "hidden";
+        getEFlag.style.boxShadow = "25px 20px #888888";
         getTysk.style.visibility = "hidden";
+        getTFlag.style.boxShadow = "25px 20px #888888";
         
     }
 }
 
-let engelskFalgStatus = true;
+let engelskFlagStatus = true;
 
-let engelskFalg = function() {
+let engelskFlag = function() {
     let getDansk = document.querySelector(".danskside");
     let getEngelsk = document.querySelector(".engelskside");
     let getTysk = document.querySelector(".tyskside");
+    let getDFlag = document.querySelector(".dansk");
+    let getEFlag = document.querySelector(".engelsk");
+    let getTFlag = document.querySelector(".tysk");
     
-    if (engelskFalgStatus === true) {
+    if (engelskFlagStatus === true) {
         getDansk.style.visibility = "hidden";
+        getDFlag.style.boxShadow = "25px 20px #888888";
         getEngelsk.style.visibility = "visible";
+        getEFlag.style.boxShadow = "25px 20px #7CB82E";
         getTysk.style.visibility = "hidden";
+        getTFlag.style.boxShadow = "25px 20px #888888";
        
     }
 }
 
 let tyskFlagStatus = true;
     
-    let tyskFalg = function() {
+    let tyskFlag = function() {
     let getDansk = document.querySelector(".danskside");
     let getEngelsk = document.querySelector(".engelskside");
     let getTysk = document.querySelector(".tyskside");
+    let getDFlag = document.querySelector(".dansk");
+    let getEFlag = document.querySelector(".engelsk");
+    let getTFlag = document.querySelector(".tysk");
         
     if (tyskFlagStatus === true) {
         getDansk.style.visibility = "hidden";
-        
+        getDFlag.style.boxShadow = "25px 20px #888888";
         getEngelsk.style.visibility = "hidden";
-        
+        getEFlag.style.boxShadow = "25px 20px #888888";
         getTysk.style.visibility = "visible";
-        
+        getTFlag.style.boxShadow = "25px 20px #7CB82E";        
     }
 }
 
